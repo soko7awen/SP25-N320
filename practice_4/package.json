@@ -1,0 +1,24 @@
+{
+  "name": "sp25-create-havenapp",
+  "version": "1.0.0",
+  "bin": {
+    "create-havenapp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "readme.md",
+    "templates/"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "fs": "node fs",
+    "path": "node path",
+    "start": "node index.js",
+    "test": "TEST=1 node ./",
+    "win-test": "set TEST=1 && node ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
