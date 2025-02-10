@@ -13,7 +13,7 @@ Or to install globally:
 ``npm i -g sp25-create-havenapp``  
 
 **Running the Module**  
-To run if installed locally:
+To run if installed locally:  
 ``npx create-havenapp``  
 And to run if installed globally:  
 ``create-havenapp``  
