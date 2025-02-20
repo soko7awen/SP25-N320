@@ -2,7 +2,7 @@
 
 ### Live Link
 
-[Home Page] https://sp25-n320.onrender.com/
+[Home Page](https://sp25-n320.onrender.com/)
 
 ### Weekly Recap
 
