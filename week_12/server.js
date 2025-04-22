@@ -3,6 +3,8 @@ const path = require("path");
 
 const app = express();
 
+app.use("/api", require("./api"));
+
 app.use(
     express.static(
         path.join(__dirname, "views")
@@ -10,13 +12,9 @@ app.use(
 );
 
 
-app.get("/*page/", function (req, res){
-    res.sendFile(path.join(__dirname, "views/404.html"));
-})
-
-// app.get('/', function(req,res,next) {
-//     res.send('<h1>Home</h1>');
-// });
+app.get("/*page.html", function (req, res) {
+    res.redirect("/404.html");
+});
 
 const port = process.env.PORT || 14753;
 
